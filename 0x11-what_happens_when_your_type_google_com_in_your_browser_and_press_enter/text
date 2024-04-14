@@ -1,0 +1,30 @@
+The Journey of a URL: What Happens When You Type 'https://www.google.com' and Press Enter
+
+In the digital age, accessing information is as simple as typing a URL into a browser and pressing enter. But have you ever stopped to wonder what happens between that moment and when your desired webpage appears on the screen? Let's unravel the mystery behind typing 'https://www.google.com' into your browser and pressing enter.
+
+**Step 1: The DNS Query**
+It all starts with a DNS (Domain Name System) query. Think of DNS as the internet's phonebook; it translates human-friendly domain names into IP addresses that computers use. When you type 'https://www.google.com', your computer sends a DNS query to find out the IP address associated with that domain name.
+
+**Step 2: Establishing a TCP/IP Connection**
+Once the IP address is known, your computer uses the TCP/IP protocol to establish a connection with Google's server. TCP (Transmission Control Protocol) ensures that packets of data are sent and received in order, while IP (Internet Protocol) deals with routing the packets to the correct destination.
+
+**Step 3: Firewall Security Check**
+Before a connection is established, your computer's firewall performs a security check on the incoming and outgoing packets to ensure they're not malicious. This is a crucial step to protect your system from potential cyber threats.
+
+**Step 4: HTTPS and SSL/TLS Handshake**
+Next, an HTTPS connection is initiated, which is a secure version of HTTP. HTTPS uses SSL (Secure Sockets Layer) or TLS (Transport Layer Security) protocols to encrypt the data sent between your computer and Google's server, ensuring privacy and data integrity.
+
+**Step 5: Load Balancing**
+Google receives countless requests every second, so to manage this, a load balancer distributes the traffic across multiple servers. This ensures no single server is overwhelmed and helps in achieving faster response times.
+
+**Step 6: The Web Server Response**
+Your request finally reaches one of Google's web servers. The server processes the request and sends back the data for the Google homepage to your browser.
+
+**Step 7: Rendering the Webpage**
+The last step is on your computer, where the browser takes the data from Google's server and renders the webpage for you to interact with. This involves parsing HTML, CSS, and JavaScript to display the page correctly.
+
+From start to finish, this entire process happens in just a few seconds, showcasing the incredible efficiency of modern web technology. Each step is a critical component in the journey of a URL, ensuring that you can access the world's information at the click of a button.
+
+Understanding this process not only satisfies curiosity but also provides insight into the complex workings of the internet—a network that has become integral to our daily lives.
+
+So, the next time you type 'https://www.google.com' and press enter, remember the intricate dance of technology that occurs behind the scenes to bring you the information you seek.
